@@ -30,7 +30,7 @@ module.exports = {
       email: 'whisdevj@gmail.com',
       telegram: '#',
       twitter: '#',
-      github: 'https://github.com/Whis-dev',
+      github: 'whis-dev',
       rss: '#',
       vkontakte: '#'
     }
