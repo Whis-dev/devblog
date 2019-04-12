@@ -14,6 +14,21 @@ const Menu = ({ menu }) => (
           >
             {item.label}
           </Link>
+          {(item['children'] || []).length > 0
+            && (<ul className={styles['menu__list']}>
+              {item['children'].map((child) => (
+                <li className={styles['menu__list-item']} key={child.path}>
+                  <Link
+                    to={child.path}
+                    className={styles['menu__list-item-link']}
+                    activeClassName={styles['menu__list-item-link--active']}
+                  >
+                    {child.label}
+                  </Link>
+                </li>
+              ))}
+              </ul>)
+          }
         </li>
       ))}
     </ul>

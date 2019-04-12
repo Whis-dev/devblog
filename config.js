@@ -14,12 +14,18 @@ module.exports = {
       path: '/'
     },
     {
-      label: 'About me',
-      path: '/pages/about'
+      label: 'Categories',
+      path: '/categories',
+      children: [
+        {
+          label: 'blogInfo',
+          path: '/category/blog-intro'
+        }
+      ]
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
+      label: 'About me',
+      path: '/pages/about'
     }
   ],
   author: {
