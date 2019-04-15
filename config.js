@@ -18,8 +18,58 @@ module.exports = {
       path: '/categories',
       children: [
         {
-          label: 'blogInfo',
-          path: '/category/blog-intro'
+          label: 'Notice',
+          path: '/category/notice'
+        },
+        {
+          label: 'Dev Notes',
+          path: '/category/dev-notes'
+        },
+        {
+          label: 'Study',
+          path: '/category/study',
+          children: [
+            {
+              label: 'Javascript',
+              path: '/category/study/javascript'
+            },
+            {
+              label: 'ReactJS',
+              path: '/category/study/reactjs'
+            }
+          ]
+        },
+        {
+          label: 'Algorithm',
+          path: '/category/algorithm',
+          children: [
+            {
+              label: 'Hacker Rank',
+              path: '/category/algorithm/hackerrank'
+            },
+            {
+              label: 'Programmers',
+              path: '/category/algorithm/programmers'
+            }
+          ]
+        },
+        {
+          label: 'Books',
+          path: '/category/books',
+          children: [
+            {
+              label: 'dev',
+              path: '/category/books/dev'
+            },
+            {
+              label: 'other',
+              path: '/category/books/other'
+            }
+          ]
+        },
+        {
+          label: 'Hobbies',
+          path: '/category/hobbies'
         }
       ]
     },

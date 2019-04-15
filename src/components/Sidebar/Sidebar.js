@@ -40,6 +40,10 @@ export const Sidebar = (props) => (
               children {
                 label
                 path
+                children {
+                  label
+                  path
+                }
               }
             }
             author {

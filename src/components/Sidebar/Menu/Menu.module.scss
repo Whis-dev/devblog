@@ -16,7 +16,7 @@
       &-link {
         font-size: $typographic-base-font-size;
         color: $typographic-base-font-color;
-        font-weight: normal;
+        font-weight: bold;
         border: 0;
 
         &:hover,
@@ -36,4 +36,33 @@
 
   }
 
+}
+
+.submenu {
+  @include margin-bottom(1);
+
+  &__list {
+    list-style: none;
+    
+    &-item {
+      
+      &-link {
+        font-size: $typographic-base-font-size;
+        color: $typographic-base-font-color;
+        font-weight: normal;
+        border: 0;
+
+        &:hover,
+        &:focus {
+          color: $color-primary;
+          border-bottom: 1px solid $color-primary;
+        }
+
+        &--active {
+          color: $color-base;
+          border-bottom: 1px solid $color-base;
+        }
+      }
+    }
+  }
 }
