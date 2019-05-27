@@ -20,6 +20,10 @@ module.exports = {
     {
       label: 'Books',
       path: '/category/books',
+    },
+    {
+      label: 'About me',
+      path: '/pages/about'
     }
   ],
   author: {
