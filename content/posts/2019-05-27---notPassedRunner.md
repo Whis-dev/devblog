@@ -51,8 +51,8 @@ description: "프로그래머스 코딩테스트 연습문제 Javascript Level1�
 ```javascript
 
 function solution(participant, completion) {
-   / completion.forEach(completion => {
     //First Solution
+    //completion.forEach(completion => {
     //     participant.splice(participant.indexOf(completion),1);
     // })
     // return participant[0];
