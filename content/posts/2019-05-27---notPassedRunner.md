@@ -4,7 +4,7 @@ date: "2019-05-27T14:17:00Z"
 template: "post"
 draft: false
 slug: "category/programmers/runner"
-category: "programmers"
+category: "Programmers"
 tags:
     - "algorithm"
     - "programmers"
