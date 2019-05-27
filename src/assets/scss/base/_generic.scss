@@ -81,14 +81,16 @@ hr {
   margin-top: 52px;
   margin-bottom: 52px;
   border: 0;
-  color: $color-base;
+  // color: $color-base;
+  color: lightgray;
   display: block;
   height: 26px;
   margin-right: auto;
   margin-left: auto;
   background-size: 100% 26px;
-  background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, $color-base 11px, $color-base 15px, transparent 15px, transparent 26px);
-  width: 100px;
+  // background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, $color-base 11px, $color-base 15px, transparent 15px, transparent 26px);
+  background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, lightgray 11px, lightgray 15px, transparent 15px, transparent 26px);
+  width: 100%;
 }
 
 a {
@@ -109,12 +111,16 @@ strong {
 }
 
 ul {
-  list-style: square;
+  list-style: disc;
   // @include margin-bottom(1);
 
-  & li {
+  // & li {
+    // list-style: disc;
     // padding: 0 5px;
     // margin-bottom: 10px;
+  // }
+  & ul {
+    list-style: circle;
   }
 
 }
@@ -144,6 +150,22 @@ figcaption {
   font-style: italic;
   margin-bottom: 0;
   text-align: center;
+}
+
+table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th{
+  border: 1px solid black;
+  text-align: center;
+}
+
+td {
+  border: 1px solid black;
+  text-align: left;
 }
 
 .anchor {

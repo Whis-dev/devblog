@@ -37,14 +37,6 @@ export const Sidebar = (props) => (
             menu {
               label
               path
-              children {
-                label
-                path
-                children {
-                  label
-                  path
-                }
-              }
             }
             author {
               name
