@@ -1,6 +1,6 @@
 ---
 title: K번째 수
-date: "2019-05-28T12:59:00Z"
+date: "2019-05-29T14:32:00Z"
 template: "post"
 draft: false
 slug: "category/programmers/kthnumber"
