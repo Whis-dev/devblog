@@ -27,7 +27,7 @@ description: "프로그래머스 코딩테스트 연습문제 Javascript Level1�
 ### 입출력 예
 
 | s | answer |
-| --- | --- | --- |
+| --- | --- |
 | pPoooyY | true |
 | Pyy | false |
 
